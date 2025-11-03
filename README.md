@@ -54,31 +54,4 @@ This app uses **agentic AI** (goal-oriented, collaborative agents) to automate t
 
 ## Architecture
 
-```mermaid
-flowchart TD
-    A[User Input<br/>(Topic, Style)] --> B[Agent Orchestrator<br/>(LangChain / CrewAI)]
-    B --> C[Researcher]
-    B --> D[Outliner]
-    B --> E[Writer]
-    B --> F[Editor]
-    B --> G[Publisher]
-    subgraph Agents
-        C -->|shared memory| D
-        D -->|shared memory| E
-        E -->|shared memory| F
-        F -->|shared memory| G
-    end
-    G --> H[Final Post<br/>(Markdown/HTML)]
 
-## ⚙️ Tech Stack
-
-| **Category** | **Technologies** |
-|--------------|------------------|
-| **AI / Core** | LangChain, CrewAI, OpenAI / Grok APIs |
-| **Backend** | Python 3.10+, FastAPI |
-| **Frontend** | Streamlit (interactive dashboard) |
-| **Data / Tools** | Pandas, Requests, BeautifulSoup |
-| **Deployment** | Docker, Streamlit Cloud, Vercel |
-| **CI / Misc** | GitHub Actions, .env for secrets |
-
-*Full dependency list in* `requirements.txt`.
