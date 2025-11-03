@@ -54,6 +54,7 @@ This app uses **agentic AI** (goal-oriented, collaborative agents) to automate t
 
 ## Architecture
 ## 🧠 Workflow Overview
+```
 User Input (Topic, Style)
 │
 ▼
@@ -67,6 +68,7 @@ Researcher Outliner Writer Editor Publisher
 │
 ▼
 Final Post (Markdown/HTML)
+
 
 
 
