@@ -130,6 +130,22 @@ docker run -p 8501:8501 --env-file .env blog-agent
 |Planned | Webhook auto-post to WordPress, Medium   |
 |Planned | Community “Agent Marketplace”            |
 
+### Contributing
+We love contributions!
+1. Fork → create a branch (feature/my-cool-agent).
+2. Commit with clear messages.
+3. Push & open a Pull Request.
+#### Guidelines
+- Follow PEP 8.
+- Add tests under tests/.
+- Update docs for new features.
+### License
+Distributed under the MIT License – see LICENSE.
+
+```
+Built with ❤️ by Shanjib
+Star the repo if it sparks ideas!
+```
 
 
 
