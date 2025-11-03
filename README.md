@@ -112,12 +112,13 @@ streamlit run src/app.py
 docker build -t blog-agent .
 docker run -p 8501:8501 --env-file .env blog-agent
 
-### Usage
+Usage
 1. Launch the Streamlit UI.
 2. Enter a topic, e.g. "Agentic AI in 2025 Marketing".
 3. Configure length, tone, keywords.
 4. Click “Run Agents” – watch the sidebar log each agent’s work.
 5. Review & Export – edit, then download Markdown/PDF or push to a CMS.
+
 
 
 
