@@ -69,3 +69,16 @@ flowchart TD
         F -->|shared memory| G
     end
     G --> H[Final Post<br/>(Markdown/HTML)]
+
+## ⚙️ Tech Stack
+
+| **Category** | **Technologies** |
+|--------------|------------------|
+| **AI / Core** | LangChain, CrewAI, OpenAI / Grok APIs |
+| **Backend** | Python 3.10+, FastAPI |
+| **Frontend** | Streamlit (interactive dashboard) |
+| **Data / Tools** | Pandas, Requests, BeautifulSoup |
+| **Deployment** | Docker, Streamlit Cloud, Vercel |
+| **CI / Misc** | GitHub Actions, .env for secrets |
+
+*Full dependency list in* `requirements.txt`.
