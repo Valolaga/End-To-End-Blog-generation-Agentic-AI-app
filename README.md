@@ -93,19 +93,20 @@ Final Post (Markdown/HTML)
 ### Installation
 
 ```
-# 1. Clone
+### 1. Clone
 git clone https://github.com/Valolaga/End-To-End-Blog-generation-Agentic-AI-app.git
 cd End-To-End-Blog-generation-Agentic-AI-app
 
-# 2. Environment
+### 2. Environment
 cp .env.example .env
-# edit .env with your keys
+#### edit .env with your keys
 
-# 3. Install
+### 3. Install
 pip install -r requirements.txt
 
-# 4. Run
+### 4. Run
 streamlit run src/app.py
+
 
 
 
