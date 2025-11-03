@@ -119,17 +119,18 @@ docker run -p 8501:8501 --env-file .env blog-agent
 4. Click “Run Agents” – watch the sidebar log each agent’s work.
 5. Review & Export – edit, then download Markdown/PDF or push to a CMS.
 
-```
-Roadmap
-|Status | Feature|
-|------|------|
-|Done|Core agent pipeline (v0.1)|
-|Planned |Image generation (DALL·E / Midjourney)|
-|Planned | Multi-language support|
-|Planned |Plagiarism / fact-check agent|
-|Planned |Webhook auto-post to WordPress, Medium|
-|Planned| Community “Agent Marketplace”|
-```
+
+### Roadmap
+|Status  | Feature                                  |
+|--------|------------------------------------------|
+|Done    | Core agent pipeline (v0.1)               |
+|Planned | Image generation (DALL·E / Midjourney)   |
+|Planned | Multi-language support                   |
+|Planned | Plagiarism / fact-check agent            |
+|Planned | Webhook auto-post to WordPress, Medium   |
+|Planned | Community “Agent Marketplace”            |
+
+
 
 
 
