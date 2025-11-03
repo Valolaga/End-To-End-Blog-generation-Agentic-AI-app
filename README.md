@@ -140,12 +140,13 @@ We love contributions!
 - Add tests under tests/.
 - Update docs for new features.
 ### License
-Distributed under the MIT License – see LICENSE.
+Distributed under the MIT License.
 
 ```
 Built with ❤️ by Shanjib
 Star the repo if it sparks ideas!
 ```
+
 
 
 
