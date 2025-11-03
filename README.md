@@ -68,7 +68,7 @@ Researcher Outliner Writer Editor Publisher
 │
 ▼
 Final Post (Markdown/HTML)
-
+```
 
 ## Tech Stack
 
@@ -91,23 +91,21 @@ Final Post (Markdown/HTML)
 - Git
 
 ### Installation
-
-```
-### 1. Clone
+#### 1. Clone
 git clone https://github.com/Valolaga/End-To-End-Blog-generation-Agentic-AI-app.git
 cd End-To-End-Blog-generation-Agentic-AI-app
 
-### 2. Environment
+#### 2. Environment
 cp .env.example .env
 #### edit .env with your keys
 
-### 3. Install
+#### 3. Install
 pip install -r requirements.txt
 
-### 4. Run
+#### 4. Run
 streamlit run src/app.py
 
-## Docker (optional)
+### Docker (optional)
 ```bash
 docker build -t blog-agent .
 docker run -p 8501:8501 --env-file .env blog-agent
@@ -118,7 +116,6 @@ docker run -p 8501:8501 --env-file .env blog-agent
 3. Configure length, tone, keywords.
 4. Click “Run Agents” – watch the sidebar log each agent’s work.
 5. Review & Export – edit, then download Markdown/PDF or push to a CMS.
-
 
 ### Roadmap
 |Status  | Feature                                  |
@@ -141,11 +138,11 @@ We love contributions!
 - Update docs for new features.
 ### License
 Distributed under the MIT License.
-
 ```
 Built with ❤️ by Shanjib
 Star the repo if it sparks ideas!
 ```
+
 
 
 
