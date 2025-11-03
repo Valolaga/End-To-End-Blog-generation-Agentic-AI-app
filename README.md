@@ -107,6 +107,10 @@ pip install -r requirements.txt
 ### 4. Run
 streamlit run src/app.py
 
+## Docker (optional)
+```bash
+docker build -t blog-agent .
+docker run -p 8501:8501 --env-file .env blog-agent
 
 
 
