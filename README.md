@@ -53,5 +53,21 @@ This app uses **agentic AI** (goal-oriented, collaborative agents) to automate t
 - **Extensible** – add new agents (fact-checker, image generator, etc.).  
 
 ## Architecture
+## 🧠 Workflow Overview
+User Input (Topic, Style)
+│
+▼
+Agent Orchestrator (LangChain / CrewAI)
+│
+├──────────────┐
+▼ ▼
+Researcher Outliner Writer Editor Publisher
+│ │ │ │
+└──────────► shared memory ◄──────────┘
+│
+▼
+Final Post (Markdown/HTML)
+
+
 
 
